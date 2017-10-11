@@ -50,13 +50,19 @@ with the current date in the form
 Example: “/date” returns “2017-09-20”
 
 
+======================================
+
+
+
 ## BASIC INSTRUCTIONS TO RUN THIS FLASK APP
 
 1. Run your virtual environment
 
 Command:
 
+```
 virtualenv env; source env/bin/activate;
+```
 
 Reason: to make the installation run in a limited space
 
@@ -64,32 +70,59 @@ Reason: to make the installation run in a limited space
 
 Command: 
 
+```
 pip install -r requirements.txt
+```
 
 Reason: all needed installations are saved in requirements.txt. pip is a command for Python to pick up necessary packages and install them.
 
 3. Run server
 
-Command: python server.py
+Command:
+
+```
+python server.py
+```
 
 Reason: have your server running, so that what you interact with server-client will be viewable on your browser
 
 4. Run your Flask on browser
 
-Command: localhost:5000 on your browser address bar
+Command: on your browser address bar
 
-Reason: Because your server is running, you can see the site
+```
+localhost:5000 
+```
+
+Reason: Because your server is running, you can see the result.
+Add the above routes to see different results as well
 
 5. When done, close the server
+
+```
 control c
+```
 
 6. If accidently closed the window and getting error when trying to run Python server again
+
+```
 ps -fA | grep python
+```
+
 find the second number of the server
+
+```
 kill (second number)
+```
 
 7. Save environment if dependancies changed
+
+```
 pip freeze > requirements.txt
+```
 
 8. Deactivate virtual env
+
+```
 deactivatae
+```
