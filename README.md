@@ -41,7 +41,11 @@ Example: the request “/compute?num1=5&num2=3&operation=subtract” returns “
 “/date”
 ```
 
-with the current date in the form “yyyy-mm-dd”
+with the current date in the form 
+
+```
+“yyyy-mm-dd”
+```
 
 Example: “/date” returns “2017-09-20”
 
