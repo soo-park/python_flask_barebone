@@ -21,7 +21,7 @@ Example: the request “/hello?firstname=tien&lastname=nguyen&gender=m” return
 
 and respond with the result
 
-Example: the request “/hello?num1=5&num2=3&operation=subtract” returns “2” (5-3=2)
+Example: the request “/compute?num1=5&num2=3&operation=subtract” returns “2” (5-3=2)
 
 * Respond to requests of the form 
 
